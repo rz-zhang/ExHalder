@@ -7,9 +7,9 @@ In particular, each row corresponds to one example and it contains the following
 2. "SplitID" field indicates which dataset split this example belongs to (one of
    train, validation, and test).
 3. "ArticleURL" field includes the news article URL.  
-4. "Generated Headline" field contains the generated news headline.
-**5. "ArticalTitle" field contains the original news title extracted by the news-please library.**
-**6. "ArticalPassage" field contains the contents extracted by the news-please library.**
+4. "Generated Headline" field contains the generated news headline.  
+**5. "ArticalTitle" field contains the original news title extracted by the news-please library.**  
+**6. "ArticalPassage" field contains the contents extracted by the news-please library.**  
 7. "Explanation" field contains the human written explanation and could simply
    be an empty string.
 8. "Label" field indicates if the headline is supported/entailed by the news
