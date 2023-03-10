@@ -4,12 +4,14 @@ The dataset contains 6270 labeled examples for news headline hallucination detec
 1. "ExampleId" field contains a unique identifier for this example.
 2. "SplitID" field indicates which dataset split this example belongs to (one of
    train, validation, and test).
-3. "Generated Headline" field contains the generated news headline.
-4. "ArticleURL" field includes the news article URL.
-5. "Label" field indicates if the headline is supported/entailed by the news
-   article.
-6. "Explanation" field contains the human written explanation and could simply
+3. "ArticleURL" field includes the news article URL.  
+4. "Generated Headline" field contains the generated news headline.
+5. "ArticalTitle" field contains the original news title.
+6. "ArticalPassage" field contains the contents extracted by the news-please library.
+7. "Explanation" field contains the human written explanation and could simply
    be an empty string.
+8. "Label" field indicates if the headline is supported/entailed by the news
+   article.
 
 Due to the policy constraints, we cannot directly provide the article titles and passages. However, you can use the public [news-please](https://github.com/fhamborg/news-please) library to extract the article contents based on the released article URLs. 
 
