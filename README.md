@@ -1,6 +1,6 @@
 # News Headline Hallucination Detection Dataset
 
-The dataset contains 6270 labeled examples for news headline hallucination detection used in the WebConf 2023 paper ""Why is this misleading?": Detecting News Headline Hallucinations with Explanations". **News article titles and passages are included in this dataset**, they are extracted by the public [news-please](https://github.com/fhamborg/news-please) library based on the released article URLs. 
+The dataset contains 6270 labeled examples for news headline hallucination detection used in the WebConf 2023 paper ""Why is this misleading?": Detecting News Headline Hallucinations with Explanations". ***News article titles and passages are included in this dataset***, they are extracted by the public [news-please](https://github.com/fhamborg/news-please) library based on the released article URLs. 
 
 In particular, each row corresponds to one example and it contains the following six fields:
 1. "ExampleId" field contains a unique identifier for this example.
